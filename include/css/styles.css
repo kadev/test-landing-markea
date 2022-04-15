@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/********************/
+/***** GLOBALS *****/
+/********************/
+
+body{
+    font-family: "Raleway";
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+/*********************************/
+/***** OVERRIDING BOOTSTRAP *****/
+/*******************************/
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1140px;
+}
+
+.btn-success {
+    background-color: #159908 !important;
+}
+
+.btn-primary {
+    background-color: #0f2c70 !important;
+    border-color: #0f2c70;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.carousel-content-footer h3 {
+    font-size: 45px;
+}
+
+.carousel-content-footer p {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+/**********************/
+/***** UTILITIES *****/
+/********************/
+
+.btn-rounded {
+    border-radius: 2rem;
+}
+
+.text-blue{
+    color: #0D2F77
+}
+
+.border-bottom{
+    border-bottom: 1px solid #B8B8B8 !important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.bg-color-water {
+    background-color: #499cc3;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
+.link-secondary {
+    color: white;
+}
+
+.link-secondary:hover {
+    opacity: 90%;
+}
+
+.pl-5, .px-5 {
+    padding-left: 3rem !important;
+}
+
+/**********************/
+/***** COMPONENT STYLES *****/
+/********************/
+
+.bg-slider-1{
+    height: calc(100vh - 105px);
+    background-image: url("../../include/images/woman-yacht.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reason-to-book {
+    display: flex;
+}
+
+.reason-to-book .number{
+    background-color: #0f2c70;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    height: 45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.characteristics {
+    display: flex;
+}
+
+.characteristics .item:first-child{
+    padding-left: 0 !important;
+}
+
+.characteristics .item {
+    padding: 0 5rem 0 1rem;
+    border-right: 1px black solid;
+}
+
+.characteristics .item:last-child {
+    border-right: none;
+}
+
+.characteristics.text-align-right .item:last-child{
+    padding-right: 0 !important;
+}
+
+.characteristics .item .description, .characteristics .item .value {
+    font-size: 24px;
+}
+
+.characteristics.items-justify-left {
+    justify-content: end !important;
+}
+
+.caption-top{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 10%;
+}
+
+.header-logo {
+    height: 60px;
+}
+
+.call-to-action-1{
+    padding: 7rem 10rem;
+}
+
+.call-to-action-1 h1{
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.call-to-action-1 p {
+    font-size: 26px;
+}
+
+.call-to-action-1 .btn {
+    background: #fff 0% 0% no-repeat padding-box;
+    color: #000;
+    border-radius: 25px;
+    opacity: 1;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px 55px 5px 55px;
+    margin-top: 1rem;
+}
+
+.title-margin {
+    margin: 10rem 0 5rem 0;
+}
+
+.main-carousel {
+    right: 5px !important;
+    top: 75px !important;
+    z-index: 2;
+    background-color: #fff !important;
+    padding: 1rem;
+}
+
+.btn-ajy {
+    font-size: 18px;
+    background-color: #0D2F77;
+    color: #fff;
+    border-radius: 35px;
+    padding: 15px 40px;
+    width: fit-content;
+}
+
+.yacht-title {
+    font-size: 40px;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.pre-footer {
+    background: linear-gradient(to bottom, #75E0FF, #0E4072);
+}
+
+.footer-form-info h3 {
+    font-size: 38px;
+}
+
+.footer-form-info p {
+    font-size: 21px;
+}
+
+.footer-form input {
+    padding: 20px 25px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.title-lg {
+    font-weight: 300;
+    font-size: 47px;
+}
+
+.markea-credits {
+    color: white; !important;
+    text-decoration: none;
+}
+
+.markea-credits:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+footer a:hover{
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.start-chart-btn {
+    border: none !important;
+}
+
+.social-float {
+    position: fixed;
+    z-index: 1020;
+    top: 200px;
+    right: 0px;
+}
+
+/** MEDIA QUERIES **/
+
+/** Small devices (landscape phones, 576px and up)  **/
+@media (max-width: 575.98px) {
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+        background-color: #f8f9fa;
+    }
+
+    .header-logo {
+        height: 35px !important;
+    }
+
+    .start-chart-btn {
+        font-size: 0.9rem !important;
+        padding: 0.5rem 1rem;
+    }
+
+    .main-carousel {
+        position: relative !important;
+    }
+
+    .call-to-action-1{
+        padding: 3rem 0;
+    }
+
+    .call-to-action-1 h1, .call-to-action-1 p{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .call-to-action-1 .btn {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 5px 35px 5px 35px;
+    }
+
+    .bg-slider-1{
+        height: 70vh;
+        background-image: url("../../include/images/woman-yacht.png");
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0px;
+        top: -60px;
+    }
+
+    #hero-container {
+        padding: 0 !important;
+    }
+
+    .main-carousel {
+        right: 0px !important;
+        top: 0px !important;
+    }
+
+    .ajy-description {
+        font-size: 1rem !important;
+        margin: 75px 0 !important;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .reason-to-book .number {
+        height: 45px;
+        padding: 0 0.4rem;
+        font-weight: 400;
+    }
+
+    .yacht-title {
+        text-align: center !important;
+    }
+
+    .characteristics {
+        justify-content: center;
+        text-align: left !important;
+    }
+
+    .characteristics .item {
+        padding: 0 2rem 0 1rem;
+        padding-left: 1rem;
+        border-right: 1px black solid;
+    }
+
+    .characteristics .item .description, .characteristics .item .value {
+        font-size: 14px;
+    }
+
+    .characteristics .item:last-child {
+        padding-right: 0 !important;
+    }
+
+    .characteristics.items-justify-left {
+        justify-content: center !important;
+    }
+
+    .yacth-details .btn {
+        margin: 0 auto;
+    }
+
+    .title-margin {
+        margin: 8rem 0 3rem 0;
+    }
+
+    .signature-label {
+        font-size: 19px;
+    }
+
+    .signature-label span {
+        font-size: 47px;
+    }
+
+    .carousel-content-footer h3 {
+        margin-top: 6rem;
+        font-size: 1.75rem;
+    }
+
+    .carousel-content-footer p {
+        font-size: 1rem;
+    }
+
+    .carousel-content-footer {
+        text-align: center;
+    }
+
+    .contact-label-container {
+        text-align: center;
+    }
+
+    .contact-label-container h3 {
+        font-size: 1.75rem;
+    }
+
+    .contact-label-container p {
+        font-size: 1rem;
+    }
+
+    .footer-form input {
+        padding: 10px 40px;
+        font-size: 12px;
+    }
+
+    .footer-content > div {
+        text-align: center;
+    }
+
+    .footer-logo {
+        height: 70px;
+    }
+}
